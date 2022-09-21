@@ -7,7 +7,6 @@
 * Return: two concat strings
 */
 char *_strcat(char *dest, char *src)
-	
 {
 	int i, n;
 
@@ -19,5 +18,5 @@ char *_strcat(char *dest, char *src)
 	{
 	}
 
-	return (*dest);
+	return (dest);
 }
